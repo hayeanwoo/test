@@ -31,51 +31,59 @@ function setup() {
 }
 
 
+
 function show1(){
- img_b = loadImage("20190318180819.png");
+  img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfOTgg/MDAxNTU2MjAzMzUzNzEz.Emp-gROreFHtJcjAgfgexUA1zmb-48SRkmYaSw2Xfqcg.nQfSmRGQXmDNVQyUzacqOj3dDgmCO9ir2D0KbSKoh9gg.PNG.hiu2332/20190318180819.png?type=w966"
+  );
   img_b.size(430,100);
   img_b.position( 150, 250) ;
   img_b.size(300, 300);
+
   
 }
 function show2(){
   if ( plag ===0 ){
-  img_b = loadImage("3주차 과제_ 결과1.png" );
+ img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfMTgg/MDAxNTU2MjAzMzYxODAw.GbaSNMEgaNlU6PD4I4kOW7hxYzfHhmikoyQEmFF4_QAg.gNBiWN1kOFJ5zq4pgSsBiRt1dkz-fbPQ4PNJSwb2Q8kg.PNG.hiu2332/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C__%EA%B2%B0%EA%B3%BC1.png?type=w966"
+  );
   img_b.size(430,100);
   img_b.position( 150, 250) ;
   img_b.size(300, 300);
   plag = 1;
   }
   else {
-  img_a = loadImage("3주차 과제_결과2.png");
+  img_a = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfMTIw/MDAxNTU2MjAzMzY1MDM0.Xhl0gIqTmVrrTNIpFIIGI3V5luoN8R0Dm7s9BTF0nYsg.LJv7vYgqTN-iB-QVdEKDFR8l5D5Fws9kjuHC1ntC82og.PNG.hiu2332/3%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C_%EA%B2%B0%EA%B3%BC2.png?type=w966"
+  );
   img_a.size(430,100);
   img_a.position( 150, 250) ;
   img_a.size(300, 300);
   plag = 0 ;
   }
 }
+
 function show3(){
-  img_b = loadImage("4주차 과제 시도 2 (용그림).png");
+  img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfMjU5/MDAxNTU2MjAzMzczOTQz.oR643yiAh4mL41WMPqiCSaeDPx5Z-ELb3kSOxvS6WZIg.1o8Fx0K6FKqetLDJQVKk1P_DRM2LGQpc2OvUbFxLiCQg.PNG.hiu2332/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C_%EC%8B%9C%EB%8F%84_2_(%EC%9A%A9%EA%B7%B8%EB%A6%BC).png?type=w966" );
   img_b.size(430,100);
   img_b.position( 150, 250) ;
   img_b.size(300, 300);
-  
-}
-function show4(){
- img_b = loadImage("5주차 과제.png");
-  img_b.size(430,100);
-  img_b.position( 150, 250) ;
-  img_b.size(300, 300);
-  
-}
-function show5(){
- img_b = loadImage("6주차 실습_특강.gif");
-  img_b.size(430,100);
-  img_b.position( 150, 250) ;
-  img_b.size(300, 300);
-  
 }
 
+
+function show4(){
+ img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfMjU2/MDAxNTU2MjAzMzg4NjY3.Whr-vL0eUKlPd_3dCDAqk3yic-HW2K6cwoFkZEzrcnUg.YL6Zld1g3Mrbi8wtnRLq8SYn85G9PjpVV-uE5YJTuWwg.PNG.hiu2332/5%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C.png?type=w966"
+  );
+  img_b.size(430,100);
+  img_b.position( 150, 250) ;
+  img_b.size(300, 300);
+}
+
+
+function show5(){
+ img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MTRfNjgg/MDAxNTU1MjUxODM5MzA4.jIC4t6bLxnlAPQ2Ws2fcbo7BaIhed0QwNi8Ef19tO2sg.FNibYorLT1rjwfXHkui2Qacqf35dbFb_pI1Ve66Bwbwg.GIF.hiu2332/6%EC%A3%BC%EC%B0%A8_%EC%8B%A4%EC%8A%B5_%ED%8A%B9%EA%B0%95.gif?type=w966" );
+  img_b.size(430,100);
+  img_b.position( 150, 250) ;
+  img_b.size(300, 300);
+  
+}
 
 function show_(){
   img_b = createImg("https://postfiles.pstatic.net/MjAxOTA0MjVfNTEg/MDAxNTU2MjA0Mzk3MTkz.XkiFg8wHn7z3VSLHveyBngB3BTYl_1Xel3U0rYlv3SMg.kLQZL7q0WBfiqwX71JAVGzPVnw8TjvJlRRA1VPShup8g.PNG.hiu2332/20190425235914.png?type=w966" );
